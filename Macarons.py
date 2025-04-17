@@ -92,6 +92,7 @@ class Trader:
         buy_order_volume: int,
         sell_order_volume: int
     ) -> tuple[List[Order], int, int]:
+        
         position_limit = self.LIMIT[Product.MAGNIFICENT_MACARONS]
         best_bid = max(order_depth.buy_orders.keys()) if order_depth.buy_orders else None
         best_ask = min(order_depth.sell_orders.keys()) if order_depth.sell_orders else None
@@ -209,6 +210,7 @@ class Trader:
         buy_order_volume: int,
         sell_order_volume: int,
     ) -> tuple[List[Order], int, int]:
+        
         orders: List[Order] = []
         position_limit = self.LIMIT[Product.MAGNIFICENT_MACARONS]
 
