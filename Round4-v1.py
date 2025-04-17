@@ -10,6 +10,25 @@ import numpy as np
 # Product Constants
 # =============================
 
+
+
+
+# Good
+# Macarons : +20,375 PnL
+
+# Mid
+# Volcanic Rock : +8000 PnL
+
+# Bad
+# 10000 : -1063 PnL
+# 10250 : +1188 PnL
+# 10500, 750, 9500 : no trades
+# Squid_Ink : -451 PnL
+# Kelp : +256 PnL
+# Resin : +1572 PnL
+# Djembes, Jams, Croissants, Baskets : no trades
+
+
 class Product:
     # Market Making Products
     RAINFOREST_RESIN = "RAINFOREST_RESIN"
