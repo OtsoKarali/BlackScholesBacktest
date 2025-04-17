@@ -34,7 +34,7 @@ class Product:
 PARAMS = {
     # Volcanic Vouchers
     Product.VOLCANIC_ROCK_VOUCHER_9500: {
-        "mean_volatility": 0.154105,
+        "mean_volatility": 0.199,
         "strike": 9500,
         "starting_time_to_expiry": 7/250,
         "std_window": 6,
