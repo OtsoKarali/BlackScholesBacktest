@@ -19,7 +19,7 @@ PARAMS = {
         "volume_bar": 27,
         "dec_edge_discount": 0.78,
         "step_size": 2.1,
-        "position_clear_threshold": 60  # Clear position if it exceeds this
+        "position_clear_threshold": 65  # Clear position if it exceeds this
     }
 }
 
